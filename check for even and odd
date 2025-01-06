@@ -1,0 +1,25 @@
+// Accept 10 numbers from command line and check how many of them are
+// even and how many are odd.
+
+public class p2{
+public static void main(String args[])
+{
+int even_2728 =0;
+int odd_2728 =0;
+for(int i=0;i<10;i++)
+{
+int element_2728 = Integer.parseInt(args[i]);
+
+if (element_2728 % 2 == 0){
+even_2728++;
+}
+else
+{
+odd_2728++;
+}
+}
+System.out.println("Number of even elements: "+even_2728);
+System.out.println("Number of odd elements: "+odd_2728);
+}
+}
+
